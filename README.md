@@ -15,6 +15,31 @@ I tried to add the formation as a gene of a chromosome, but the complexity is to
   <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/a6bbb25a-e881-49bb-9ba7-4461847a7e7e" width="30%" alt="Formation 3" />
 </p>
 
+All the scripts explained..
+
+# Football strategies
+<p align="left">
+  <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/b59b61a8-a55c-4ccf-9b0c-3925a1116b4f" width="15%" alt=Formation 1" />
+</p>
+
+I did not add actions as a strategy like in the paper "Fernández, Antonio J., Carlos Cotta, and Rafael Campaña Ceballos. "Generating Emergent Team Strategies in Football Simulation Videogames via Genetic Algorithms." GAMEON. 2008".
+At first, glance, as I said previously, I wanted to make the strategy a combination of formation and player type.
+**Player type?**
+I made my player which is a capsule to have different attributes based on a type. 
+A player can be a midfielder, an attacker, or a defender. Just like in Volta!
+
+A chromosome of a population will look like this: 312 Each gene of the chromosome will represent the player type. 
+I used the classic method for selection, it would not make sense to use others.
+
+**But here what is the goal?**
+We want to see which is the best strategy, so we try to do a tournament (more like a group or league) and select the best team based on a fitness target.
+That fitness target is the number of points that the team won.
+
+![image](https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/4f4bec01-d38b-4c3b-b401-2563ff806f04)
+
+# Other things to mention
+
+# Conclusions
 
 The initial population will be populated with random strategies.
 Each bit is a step/guide of the strategy that I presented.
