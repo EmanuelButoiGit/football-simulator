@@ -1,10 +1,10 @@
 # Football Simulator
-The goal is to “teach” the computing system by using a genetic algorithm how to choose the best strategy.
+The goal is to “teach” the computing system using a genetic algorithm how to choose the best strategy.
 
 # Building my own simulator
 I didn’t have the simulator available to test it, so I tried to build my own simulator with Unity.
-I tried to create a simulator like a street football game; my inspiration was the Volta game mode Volta from FIFA.
-You can play 5v5, 4v4, and 3v3 but I created the simulator where are 3v3 players. 
+I tried to create a simulator like a street football game; my inspiration was the Volta game mode from FIFA.
+You can play 5v5, 4v4, and 3v3; but I created the simulator where are 3v3 players. 
 
 In Volta, we have 3 types of formations for 3 vs 3 games. I tried to add the formation as a gene of a chromosome, but the complexity is too high
 I tried to add the formation as a gene of a chromosome, but the complexity is too high.
@@ -15,18 +15,19 @@ I tried to add the formation as a gene of a chromosome, but the complexity is to
   <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/a6bbb25a-e881-49bb-9ba7-4461847a7e7e" width="30%" alt="Formation 3" />
 </p>
 
-All the scripts explained..
-
 # Football strategies
 <p align="left">
   <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/b59b61a8-a55c-4ccf-9b0c-3925a1116b4f" width="15%" alt=Formation 1" />
 </p>
 
 I did not add actions as a strategy like in the paper "Fernández, Antonio J., Carlos Cotta, and Rafael Campaña Ceballos. "Generating Emergent Team Strategies in Football Simulation Videogames via Genetic Algorithms." GAMEON. 2008".
-At first, glance, as I said previously, I wanted to make the strategy a combination of formation and player type.
+A strategy will be a combination of formation and player type.
+
 **Player type?**
-I made my player which is a capsule to have different attributes based on a type. 
+I made my player a capsule with different attributes based on a type. 
 A player can be a midfielder, an attacker, or a defender. Just like in Volta!
+
+# The genetic algorithm
 
 A chromosome of a population will look like this: 312 Each gene of the chromosome will represent the player type. 
 I used the classic method for selection, it would not make sense to use others.
