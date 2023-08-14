@@ -2,7 +2,7 @@
 The goal is to “teach” the computing system using a genetic algorithm how to choose the best strategy.
 
 # Building my own simulator
-I didn’t have the simulator available to test it, so I tried to build my own simulator with Unity.
+I didn’t have the simulator to create the algorithm and test it, so I tried to build my own simulator with Unity.
 I tried to create a simulator like a street football game; my inspiration was the Volta game mode from FIFA.
 You can play 5v5, 4v4, and 3v3; but I created the simulator where are 3v3 players. 
 
@@ -25,35 +25,27 @@ A strategy will be a combination of formation and player type.
 
 **Player type?**
 I made my player a capsule with different attributes based on a type. 
-A player can be a midfielder, an attacker, or a defender. Just like in Volta!
+A player can be a midfielder (1), an attacker (2), or a defender (3). Just like in Volta!
 
 # The genetic algorithm
 
-A chromosome of a population will look like this: 312 Each gene of the chromosome will represent the player type. 
-I used the classic method for selection, it would not make sense to use others.
+A chromosome of a population will look like this: 132, 111, 212, etc.
+The initial population will be populated with random strategies.
+Each gene of the chromosome will represent the player type. 
+
+As for the method of selection 
 
 **But here what is the goal?**
-We want to see which is the best strategy, so we try to do a tournament (more like a group or league) and select the best team based on a fitness target.
-That fitness target is the number of points that the team won.
+We want to see the best strategy, so we try to do a tournament (more like a group or league) and select the best team based on a fitness target.
+That fitness target is the number of points that the team won. This is something like in the group stages of 
 
-![image](https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/4f4bec01-d38b-4c3b-b401-2563ff806f04)
+<p align="center">
+  <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/4f4bec01-d38b-4c3b-b401-2563ff806f04" width="50%" alt=World Cup group Stages" />
+</p>
 
-# Other things to mention
+**What about the selection method?**
 
-# Conclusions
 
-The initial population will be populated with random strategies.
-Each bit is a step/guide of the strategy that I presented.
-
-A chromosome / a genome / an individual from the initial population will look something like this: 111 010 101 110
-When an individual is created, a fitness score is attributed to that individual.
-How is the fitness score calculated? 
-By performing a difference between the target and the individual.
-
-Based on the fitness we sort the population and we stop the algorithm when the best individual has the fitness 0 because there is no difference between him and the target.
-If it’s not found what we do? How do we select individuals for reproduction?
-
-2 Methods
 1. The classic method: Best of 2.
 
 Mating is done by combining genes based on random probabilities. 
@@ -63,6 +55,24 @@ If probability > 0.45 => we take the first parent> 0.90 => second else random ge
 
 Perform Elitism => 10% of the population goes straight to the new generation 50% of the rest of the population will mate to produce new offspring.
 Mating will be the same as presented in the previous method.
+
+
+# Other things to mention
+
+<p align="left">
+  <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/4c9f9db5-006a-4eed-ad4f-ff9a8c9f2162" width="15%" alt=World Cup group Stages" />
+</p>
+
+It would be nice in the future to add different colors to individuals to see exactly which individuals are in that team.
+I did add a short population and duration of time because of limited time.
+It would be also interesting to scale it for more players more tactics, more attributes and to fix formations.
+A complex algorithm because of the tournament logic.
+
+
+# Conclusions
+Genetic algorithms are crucial for making the player experience more unique and adding unpredictable complexity!
+
+
 
 
 
