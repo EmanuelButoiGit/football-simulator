@@ -15,6 +15,18 @@ I tried to add the formation as a gene of a chromosome, but the complexity is to
   <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/a6bbb25a-e881-49bb-9ba7-4461847a7e7e" width="30%" alt="Formation 3" />
 </p>
 
+# Setup
+How do you setup your own simulator?
+Well you attach the "BallScript" to a sphere, create the player as a capsule and add the "FollowBall" script.
+For better AI, you could use Reinforcement Learning for the agent.
+There are some steps when implementing something like this:
+1. observation = gathers data from environment
+2. decision = makes one based on the data he has
+3. then takes an action where the agent is rewarded
+
+The brain model that it will be generated..
+
+
 # Football strategies
 <p align="left">
   <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/b59b61a8-a55c-4ccf-9b0c-3925a1116b4f" width="15%" alt=Formation 1" />
