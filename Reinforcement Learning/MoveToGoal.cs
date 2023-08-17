@@ -9,7 +9,7 @@ public class MoveToGoal : Agent
 {
     // Agent learning through Reinforcement learning
 
-    // 1. observation = gathers data from enviroment
+    // 1. observation = gathers data from environment
     // 2. decision = makes one based on the data he has
     // 3. then takes an action where the agent is rewarded
     // if he took the right one
@@ -30,14 +30,14 @@ public class MoveToGoal : Agent
     // In ML an episode means a run
     public override void OnEpisodeBegin()
     {
-        // Reset to initial position
+        // Reset to the initial position
         if (isNormalScene)
         {
             transform.position = new Vector3(4.13f, 2.208f, -5.836778f);
         }
     }
 
-    // Agent observs the enviroment 
+    // Agent observes the environment 
     public override void CollectObservations(VectorSensor sensor)
     {
         // capsule position
