@@ -16,16 +16,18 @@ I tried to add the formation as a gene of a chromosome, but the complexity is to
 </p>
 
 # Setup
-How do you setup your own simulator?
-Well you attach the "BallScript" to a sphere, create the player as a capsule and add the "FollowBall" script.
+How do you set up your own simulator?
+Well, you attach the "BallScript" to a sphere, create the player as a capsule and add the "FollowBall" script.
+
 For better AI, you could use Reinforcement Learning for the agent.
 There are some steps when implementing something like this:
-1. observation = gathers data from environment
+1. observation = gathers data from the environment
 2. decision = makes one based on the data he has
 3. then takes an action where the agent is rewarded
 
-The brain model that it will be generated..
+The brain model that will be generated can be used for the AI agents.
 
+The other scripts will be active in the environment and you need to assign the right Game Objects to work.
 
 # Football strategies
 <p align="left">
@@ -63,7 +65,7 @@ That fitness target is the number of points that the team won. This is something
 Mating is done by combining genes based on random probabilities. 
 If probability > 0.45 => we take the first parent> 0.90 => second else random gene
 
-2. Geek for geek proposed method:
+2. Geek for geek proposed method https://www.geeksforgeeks.org/genetic-algorithms/:
 
 Perform Elitism => 10% of the population goes straight to the new generation 50% of the rest of the population will mate to produce new offspring.
 Mating will be the same as presented in the previous method.
