@@ -1,3 +1,8 @@
+/*
+All rights reserved to Code Monkey "How to use Machine Learning AI in Unity! (ML-Agents)"
+https://youtu.be/zPFU30tbyKs
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
