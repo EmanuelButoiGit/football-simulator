@@ -16,18 +16,27 @@ I tried to add the formation as a gene of a chromosome, but the complexity is to
 </p>
 
 # Setup
-How do you set up your own simulator?
-Well, you attach the "BallScript" to a sphere, create the player as a capsule and add the "FollowBall" script.
-The other scripts will be active in the environment and you need to assign the right Game Objects to work.
+How do you set up your own simulator? <br>
+Well, you attach the "BallScript" to a sphere, create the player as a capsule, and add the "FollowBall" script. <br>
 
+<br>
+<p align="center">
+  <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/7cec862e-3763-4f74-8709-af3b73d9ac80" width="45%" alt=Formation 1" />
+  <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/11bfbd43-6529-42f0-a8b9-4e55ed03f959" width="45%" alt="Formation 2" />
+</p>
+<br>
 
-For better AI, you could use Reinforcement Learning for the agent.
-There are some steps when implementing something like this:
-1. observation = gathers data from the environment
-2. decision = makes one based on the data he has
-3. then takes an action where the agent is rewarded
+In my simulator, the goalpost was created by editing a simple cube. <br>
+The "GoalScript" was designed to be active on each goal post. <br>
 
-The brain model that will be generated can be used for the AI agents.
+<br>
+<p align="center">
+  <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/d52c3ad7-239f-4f89-8c30-8785e07463e0" width="50%" alt="Goal Script" />
+</p>
+<br>
+
+Another thing that I would like to mention is that I create an aquarium-like pitch so the ball won't jump outside. <br> 
+The other scripts will be active in the environment and you need to assign the right Game Objects to work. <br>
 
 # Football strategies
 <p align="left">
@@ -54,7 +63,7 @@ We want to see the best strategy, so we try to do a tournament (more like a grou
 That fitness target is the number of points that the team won. This is something like in the group stages of 
 
 <p align="center">
-  <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/4f4bec01-d38b-4c3b-b401-2563ff806f04" width="50%" alt=World Cup group Stages" />
+  <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/4f4bec01-d38b-4c3b-b401-2563ff806f04" width="45%" alt=World Cup group Stages" />
 </p>
 
 **What about the selection method?**
@@ -70,6 +79,24 @@ If probability > 0.45 => we take the first parent> 0.90 => second else random ge
 Perform Elitism => 10% of the population goes straight to the new generation 50% of the rest of the population will mate to produce new offspring.
 Mating will be the same as presented in the previous method.
 
+# Reinforcement learning
+
+For better AI, you could use Reinforcement Learning for the agent.
+
+<p align="center">
+  <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/fb439a57-ad01-4cbc-8e1a-7ed1560676e0" width="45%" alt=Training" />
+</p>
+
+There are some steps when implementing something like this:
+1. Observation = gathers data from the environment
+2. Decision = makes one based on the data he has
+3. Then takes an action where the agent is rewarded, in our case if the agent touches the ball and not the wall
+
+The brain model that will be generated can be used for the AI agents.
+
+<p align="center">
+  <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/e52528e2-dadd-4059-b154-dfe1330980b9" width="45%" alt=Training" />
+</p>
 
 # Other things to mention
 
