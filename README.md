@@ -18,6 +18,8 @@ I tried to add the formation as a gene of a chromosome, but the complexity is to
 # Setup
 How do you set up your own simulator?
 Well, you attach the "BallScript" to a sphere, create the player as a capsule and add the "FollowBall" script.
+The other scripts will be active in the environment and you need to assign the right Game Objects to work.
+
 
 For better AI, you could use Reinforcement Learning for the agent.
 There are some steps when implementing something like this:
@@ -26,8 +28,6 @@ There are some steps when implementing something like this:
 3. then takes an action where the agent is rewarded
 
 The brain model that will be generated can be used for the AI agents.
-
-The other scripts will be active in the environment and you need to assign the right Game Objects to work.
 
 # Football strategies
 <p align="left">
