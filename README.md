@@ -81,7 +81,7 @@ Mating will be the same as presented in the previous method.
 
 # Reinforcement learning
 
-For better AI, you could use Reinforcement Learning for the agent.
+For better AI, you could use Reinforcement Learning to generate a brain model that could be used for the players, for the AI agents.
 
 <p align="center">
   <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/fb439a57-ad01-4cbc-8e1a-7ed1560676e0" width="45%" alt=Training" />
@@ -91,12 +91,6 @@ There are some steps when implementing something like this:
 1. Observation = gathers data from the environment
 2. Decision = makes one based on the data he has
 3. Then takes an action where the agent is rewarded, in our case if the agent touches the ball and not the wall
-
-The brain model that will be generated can be used for the AI agents.
-
-<p align="center">
-  <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/e52528e2-dadd-4059-b154-dfe1330980b9" width="45%" alt=Training" />
-</p>
 
 # Other things to mention
 
