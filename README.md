@@ -6,7 +6,7 @@
 ![Strategy Evolution](https://img.shields.io/badge/-Strategy%20Evolution-orange)
 
 This Football Simulator uses genetic algorithms to figure out the best football strategy. <br><br>
-Youtube video:
+Youtube video: <br>
 Itch.io: 
 
 ## 🏗 Building my own simulator
