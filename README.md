@@ -6,7 +6,8 @@
 ![Strategy Evolution](https://img.shields.io/badge/-Strategy%20Evolution-orange)
 
 This Football Simulator uses genetic algorithms to figure out the best football strategy. <br><br>
-
+Youtube video:
+Itch.io: 
 
 ## 🏗 Building my own simulator
 I didn’t have the simulator to create the algorithm and test it, so I tried to create my own simulator with Unity. <br>
@@ -68,7 +69,7 @@ The initial population will be populated with random strategies. <br>
 Here, a chromosome might look like: `132, 111, 212, ...` where each part tells the player type.
 
 **What's the aim?** 🥅 <br>
-Find the best strategy. Teams play in tournaments and the algorithm pick the best team based on their points (which will be the fitness target).
+Find the best strategy. Teams play in tournaments and the algorithm pick the best team based on their points (which will be the fitness target). <br><br>
 
 <p align="center">
   <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/4f4bec01-d38b-4c3b-b401-2563ff806f04" width="45%" alt=World Cup group Stages" />
@@ -92,11 +93,12 @@ Mating will be the same as presented in the previous method. <br> <br>
 
 ## 🎓 Reinforcement Learning
 
-For better AI, you could use Reinforcement Learning to generate a brain model that could be used for the players, for the AI agents.
+For better AI, you could use Reinforcement Learning to generate a brain model that could be used for the players, for the AI agents. <br><br>
 
 <p align="center">
   <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/fb439a57-ad01-4cbc-8e1a-7ed1560676e0" width="45%" alt=Training" />
 </p>
+<br>
 
 There are some steps when implementing something like this:
 1. **Watch**: Gather data.
@@ -112,8 +114,7 @@ There are some steps when implementing something like this:
 
 It would be nice in the future to add different colors to individuals to see exactly which individuals are in that team. <br>
 I did add a short population and duration of time because of limited time. <br>
-It would be also interesting to scale it for more players more tactics, more attributes and to fix formations. <br>
-A complex algorithm because of the tournament logic. <br>
+It would be also interesting to scale the project (to add more players, more tactics, more attributes and to fix formations). <br><br>
 
 
 ## 💡 Conclusion
