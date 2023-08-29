@@ -1,23 +1,27 @@
 # 🏆 Football Simulator ⚽
+
+![Genetic Algorithm](https://img.shields.io/badge/-Genetic%20Algorithm-brightgreen) ![Unity Built](https://img.shields.io/badge/-Built%20with%20Unity-blue) 
+![Strategy Evolution](https://img.shields.io/badge/-Strategy%20Evolution-orange)
+
 This Football Simulator uses genetic algorithms to figure out the best football strategy.
 
-# 🏗 Building my own simulator
+## 🏗 Building my own simulator
 I didn’t have the simulator to create the algorithm and test it, so I tried to create my own simulator with Unity. <br>
-I built this simulator based on the Volta mode in FIFA. While you can play in team sizes like 5v5, 4v4, and 3v3, this simulator focuses on 3v3. <br>
-You can play 5v5, 4v4, and 3v3; but I created the simulator where are 3v3 players. 
-
-In Volta, we have 3 types of formations for 3 vs 3 games. I tried to add the formation as a gene of a chromosome, but the complexity is too high
-I tried to add the formation as a gene of a chromosome, but the complexity is too high.
+I built this simulator based on the Volta mode in FIFA. <br>
+While you can play in team sizes like 5v5, 4v4, and 3v3, this simulator focuses on 3v3. <br>
+I wanted to use the three formations from Volta as parts of a chromosome. But it was too complex to do. <br><br>
 
 <p align="center">
   <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/1f91f3b6-bc3f-4c2e-b812-da69a44bf65f" width="30%" alt=Formation 1" />
   <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/33031146-40ab-460b-81e3-9699f3b9ccdb" width="30%" alt="Formation 2" />
   <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/a6bbb25a-e881-49bb-9ba7-4461847a7e7e" width="30%" alt="Formation 3" />
 </p>
+<br>
 
-# Setup
-How do you set up your own simulator? <br>
-Well, you attach the "BallScript" to a sphere, create the player as a capsule, and add the "FollowBall" script. <br>
+## 🚀 Setup
+To get the simulator ready:
+- Attach "BallScript" to a sphere.
+- Make a player using a capsule and add the "FollowBall" script.
 
 <br>
 <p align="center">
@@ -26,8 +30,7 @@ Well, you attach the "BallScript" to a sphere, create the player as a capsule, a
 </p>
 <br>
 
-In my simulator, the goalpost was created by editing a simple cube. <br>
-The "GoalScript" was designed to be active on each goal post. <br>
+- Use cubes for goal posts and add the "GoalScript"
 
 <br>
 <p align="center">
@@ -35,10 +38,10 @@ The "GoalScript" was designed to be active on each goal post. <br>
 </p>
 <br>
 
-Another thing that I would like to mention is that I create an aquarium-like pitch so the ball won't jump outside. <br> 
-The other scripts will be active in the environment and you need to assign the right Game Objects to work. <br>
+Another thing that I would like to mention is that I created an aquarium-like pitch so the ball won't jump outside. <br> 
+The other scripts will be active in the environment and you need to assign the right Game Objects to work. <br><br>
 
-# Football strategies
+## ⚽ Football Strategies 
 <p align="left">
   <img src="https://github.com/EmanuelButoiGit/football-simulator/assets/72088440/b59b61a8-a55c-4ccf-9b0c-3925a1116b4f" width="15%" alt=Formation 1" />
 </p>
