@@ -1,9 +1,9 @@
-# Football Simulator
-The goal is to “teach” the computing system using a genetic algorithm how to choose the best strategy.
+# 🏆 Football Simulator ⚽
+This Football Simulator uses genetic algorithms to figure out the best football strategy.
 
-# Building my own simulator
-I didn’t have the simulator to create the algorithm and test it, so I tried to build my own simulator with Unity.
-I tried to create a simulator like a street football game; my inspiration was the Volta game mode from FIFA.
+# 🏗 Building my own simulator
+I didn’t have the simulator to create the algorithm and test it, so I tried to create my own simulator with Unity. <br>
+I built this simulator based on the Volta mode in FIFA. While you can play in team sizes like 5v5, 4v4, and 3v3, this simulator focuses on 3v3. <br>
 You can play 5v5, 4v4, and 3v3; but I created the simulator where are 3v3 players. 
 
 In Volta, we have 3 types of formations for 3 vs 3 games. I tried to add the formation as a gene of a chromosome, but the complexity is too high
