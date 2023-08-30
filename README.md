@@ -4,6 +4,7 @@
 ![Genetic Algorithm](https://img.shields.io/badge/-Genetic%20Algorithm-brightgreen) 
 ![Unity Built](https://img.shields.io/badge/-Built%20with%20Unity-blue) 
 ![Strategy Evolution](https://img.shields.io/badge/-Strategy%20Evolution-orange)
+![GitHub](https://img.shields.io/github/license/EmanuelButoiGit/football-simulator)
 
 This Football Simulator uses genetic algorithms to figure out the best football strategy. <br><br>
 Youtube video: <br>
@@ -96,7 +97,7 @@ Mating will be the same as presented in the previous method. <br> <br>
 For better AI, you could use Reinforcement Learning to generate a brain model that could be used for the players, for the AI agents. <br><br>
 
 <p align="center">
-  <img src=Images/Reinforcement width="45%" alt="Training with RL" />
+  <img src=Images/Reinforcement.png width="45%" alt="Training with RL" />
 </p>
 <br>
 
