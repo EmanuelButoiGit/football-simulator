@@ -89,7 +89,7 @@ If probability **>** : <br>
 2. **[Geek for Geek Method](https://www.geeksforgeeks.org/genetic-algorithms/)**:
 
 Perform Elitism => 10% of the population goes straight to the new generation 50% of the rest of the population will mate to produce new offspring.
-Mating will be the same as presented in the previous method. <br> <br>
+Mating will be the same as presented in the previous method. <br><br>
 
 
 ## 🎓 Reinforcement Learning
