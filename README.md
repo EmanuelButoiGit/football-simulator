@@ -8,7 +8,7 @@
 
 This Football Simulator uses genetic algorithms to figure out the best football strategy. <br><br>
 🔗 See it in action: [YouTube Video Link](https://youtu.be/8z4btXaj4DI?si=ykuby8xe1rw34b1K) <br>
-🕹️ Give it a try: [Itch.io Link](https://candyscape.itch.io/football-strategies-simulator) <br>
+🕹️ Give it a try: [Itch.io Link](https://candyscape.itch.io/football-strategies-simulator) <br><br>
 
 ## 🏗 Building my own simulator
 I didn’t have the simulator to create the algorithm and test it, so I tried to create my own simulator with Unity. <br>
